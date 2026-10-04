@@ -1,0 +1,195 @@
+(footprint "TSOP4838"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SENSOR-TH_TSOP4X footprint")
+	(tags "SENSOR-TH_TSOP4X footprint C124647")
+	(property "Reference" "REF**"
+		(at -0.017399 -3.530607 0)
+		(layer "F.SilkS")
+		(uuid "1161b2b4-495c-47e9-ac3d-44a7ee502573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSOP4838"
+		(at -0.017399 4.649479 0)
+		(layer "F.Fab")
+		(uuid "5a1de785-0eb0-4932-929f-9831149b989e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf49be71-7695-4ca5-8d96-2a35f9a695e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4579cc84-a5a7-40e3-a950-f2311efaaa43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.75235 -1.521717)
+		(end -3.722377 -1.530607)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d9e7785-2332-46d6-8e79-c998fe220370")
+	)
+	(fp_line
+		(start -3.75235 2.649479)
+		(end -3.75235 -1.521717)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5982f0f-b152-4357-8b0f-dfa2256e990b")
+	)
+	(fp_line
+		(start -3.742443 -1.520447)
+		(end 3.717551 -1.521717)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b276d88-8496-4b9a-a318-ca00fb8a43e2")
+	)
+	(fp_line
+		(start 3.717551 -1.521717)
+		(end 3.717551 -0.408941)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a531088-4552-45ba-b772-0352fd14005d")
+	)
+	(fp_line
+		(start 3.717551 0.367793)
+		(end 3.717551 2.649479)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47e4bdbf-9b52-44dc-a5ad-49e3d75ab7a9")
+	)
+	(fp_line
+		(start 3.717551 2.649479)
+		(end -3.75235 2.649479)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cd04ca7-342a-40f0-a79d-4a202105a38b")
+	)
+	(fp_arc
+		(start 1.497841 2.799594)
+		(mid -0.147213 4.0533)
+		(end -1.702311 2.68961)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff9a7307-e791-4e78-a2be-521313099e48")
+	)
+	(fp_circle
+		(center -3.87935 4.05428)
+		(end -3.849352 4.05428)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "Rescue")
+		(uuid "f69b7e22-47e2-4a16-989c-3d46db862848")
+	)
+	(fp_poly
+		(pts
+			(xy -3.87935 -1.657607) (xy 3.844552 -1.657607) (xy 3.844552 4.05428) (xy -3.87935 4.05428)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Rescue")
+		(uuid "810d023e-02a4-4fd0-9114-222488c013a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.017399 0.559436 0)
+		(layer "F.Fab")
+		(uuid "1b343d68-ad02-43ac-96a8-029a43a8ae7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.547625 0.020574)
+		(size 1.803404 1.803404)
+		(drill 1.016002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df575200-24bb-4f22-bbdf-e64d3414c6f2")
+	)
+	(pad "2" thru_hole circle
+		(at -0.01524 0.002286)
+		(size 2.006604 2.006604)
+		(drill 1.016002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "908cab69-8682-4be6-ad0f-787de9d53394")
+	)
+	(pad "3" thru_hole circle
+		(at 2.547625 -0.020574)
+		(size 2.006604 2.006604)
+		(drill 1.016002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66081d8a-1c60-4f75-ab63-50efada23bb7")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/User/Documents/KiCad/global_libraries/footprint/packages3d/SENSOR-TH_TSOP4X.step"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
