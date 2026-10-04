@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Symbols") (type "KiCad") (uri "G:/My Drive/This Is My Life Calling/ELECTRICAL ENGINEERING/Projects/fir3fly/kicad/libraries/symbols") (options "") (descr ""))
+	(lib (name "fir3fly") (type "KiCad") (uri "G:/My Drive/This Is My Life Calling/ELECTRICAL ENGINEERING/Projects/fir3fly/kicad/libraries/symbols/fir3fly.kicad_sym") (options "") (descr ""))
+)
